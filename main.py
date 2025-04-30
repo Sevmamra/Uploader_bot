@@ -67,7 +67,8 @@ bot = Client(
     "bot",
     api_id=26797881,
     api_hash="9699262c708c2e45ba18bfce925ed5ed",
-    bot_token=7973139452:AAEVJPRDQ-sIkc5kvhPoMDyJdqKygKNnzO8)
+    bot_token="7973139452:AAEVJPRDQ-sIkc5kvhPoMDyJdqKygKNnzO8"
+)
 
 # Sudo command to add/remove sudo users
 @bot.on_message(filters.command("sudo"))
